@@ -1,0 +1,43 @@
+body,
+html {
+  font-family: sans-serif;
+  font-size: 14pt;
+  zoom: 80%;
+}
+
+.vis-item {
+  background-color: #d5ddf680 !important;
+}
+
+.vis-item .vis-item-overflow {
+  background-color: #ffffff80 !important;
+}
+
+.vis-item.vis-background .histogram {
+  background: #004dc7;
+  color: white;
+  padding: 0px 20px 0px;
+}
+.vis-item.vis-background .vis-item-content {
+  padding: 0;
+  top: 0;
+}
+
+table .description {
+  font-style: italic;
+}
+
+#visualization {
+  position: relative;
+  overflow: hidden;
+}
+
+.logo {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.logo img {
+  width: 120px;
+}
